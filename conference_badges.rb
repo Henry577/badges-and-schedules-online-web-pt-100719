@@ -18,6 +18,8 @@ def batch_badge_creator(names)
     
   end
   
+  return ahh
+  
 end
 
 
