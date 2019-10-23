@@ -12,7 +12,7 @@ def batch_badge_creator(names)
   
   names.each do |name|
     
-    names[count] = badge_maker(name)
+    badge_maker(name)
     count+= 1
     
   end
@@ -29,7 +29,7 @@ def assign_rooms(people)
   people.each do |person|
     
     room_assignments[count] = "Hello, #{person}! You'll be assigned to room #{count + 1}!"
-    
+    p room_assignments[count]
     count += 1
     
   end
