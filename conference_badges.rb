@@ -9,10 +9,11 @@ end
 def batch_badge_creator(names)
   
   count = 0
+  ahh = []
   
   names.each do |name|
     
-    badge_maker(name)
+    ahh = badge_maker(name)
     count+= 1
     
   end
